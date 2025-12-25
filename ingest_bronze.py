@@ -208,9 +208,9 @@ if __name__ == "__main__":
     # 3. Define Strategy
     # Run daily with lookback=5 to catch weekends/holidays safely.
     # Set lookback=5000 for the initial backfill run.
-    IS_BACKFILL = True
+    IS_BACKFILL = False
     if IS_BACKFILL:
-        LOOKBACK = 5000
+        LOOKBACK = 3000
     elif date.today().weekday() == 0:  # Monday
         LOOKBACK = 3
     else:
