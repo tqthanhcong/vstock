@@ -1,0 +1,10 @@
+vnstock
+pandas
+pandas-ta
+google-cloud-bigquery
+pyarrow
+sqlalchemy
+requests
+python-dotenv
+vectorbt
+pandas-gbq
